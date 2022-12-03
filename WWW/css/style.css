@@ -1,0 +1,86 @@
+header, section
+
+#level_1
+{color: rgb(0, 0, 0);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    flex: 0 1 400px;
+}
+
+.img-wrapper img {
+    max-width: 100%;
+}
+
+.page{
+    padding: 20px;
+    height: 100%;
+    background-image: url(../img/фончик4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#button{
+    display: none;
+}
+
+.page__img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+}
+@media (max-width: 1200px) {
+    .page{
+        background-image: none;
+        background-color: rgb(189, 165, 245);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page._active{
+        background-image: url(../img/лепестки-фон.gif);
+        background-position: top center;
+    }
+    #button{
+        display: block;
+        cursor: pointer;
+        width: 300px;
+        font-size: 32px;
+        border-radius: 20px;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        background-color: rgb(116, 70, 175);
+    }
+
+    #button:hover{
+        background-color: rgb(84, 126, 21);
+
+    }
+}
