@@ -7,5 +7,5 @@ button.addEventListener("click", () => {
     setTimeout(() => {
         document.querySelector('.page').style.backgroundImage = 'none';
         button.disabled = false;
-    }, 2000)
+    }, 4000)
 });
