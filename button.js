@@ -1,7 +1,7 @@
 const button = document.getElementById('button');
 
 button.addEventListener("click", () => {
-    document.querySelector('.page').style.backgroundImage = 'url(./img/лепестки-фон.gif)';
+    document.querySelector('.page').style.backgroundImage = 'url(./img/surprise.gif)';
     button.disabled = true;
 
     setTimeout(() => {
