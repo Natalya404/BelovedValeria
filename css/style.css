@@ -21,10 +21,7 @@ html {
     min-height: 100%;
 }
 
-p{
-    font-family: 'ARIAL BLACK';
-  
-}
+
 
 .img-wrapper{
     display: flex;
@@ -61,7 +58,7 @@ p{
 @media (max-width: 1200px) {
     .page{
         background-image: none;
-        background-color: rgb(64, 43, 138);
+        background-color: rgb(106, 82, 190);
         display: flex;
         flex-direction: column;
         align-items: center;
