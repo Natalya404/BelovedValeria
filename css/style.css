@@ -39,8 +39,9 @@ html {
     padding: 20px;
     height: 100%;
     background-image: url(../img/фончик4.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
 }
 
